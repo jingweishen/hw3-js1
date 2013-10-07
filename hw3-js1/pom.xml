@@ -74,5 +74,19 @@
 			<artifactId>uimaj-as-jms</artifactId>
 			<version>2.4.0</version>
 		</dependency>
+		<dependency>
+			<groupId>org.cleartk</groupId>
+			<artifactId>cleartk-stanford-corenlp</artifactId>
+			<version>0.8.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.uima</groupId>
+			<artifactId>uimaj-as-activemq</artifactId>
+			<version>2.4.0</version>
+		</dependency>
 	</dependencies>
+	<scm>
+		<connection>scm:git:git@github.com:jingweishen/hw3-js1.git</connection>
+		<developerConnection>scm:git:git@github.com:jingweishen/hw3-js1.git</developerConnection>
+	</scm>
 </project>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<analysisEngineDescription xmlns="http://uima.apache.org/resourceSpecifier">
+  <frameworkImplementation>org.apache.uima.java</frameworkImplementation>
+  <primitive>false</primitive>
+  <delegateAnalysisEngineSpecifiers>
+    <delegateAnalysisEngine key="AnswerScoreDescriptor">
+      <import name="descriptors.AnswerScoreDescriptor"/>
+    </delegateAnalysisEngine>
+    <delegateAnalysisEngine key="QuestionDescriptor">
+      <import name="descriptors.QuestionDescriptor"/>
+    </delegateAnalysisEngine>
+    <delegateAnalysisEngine key="AnswerDescriptor">
+      <import name="descriptors.AnswerDescriptor"/>
+    </delegateAnalysisEngine>
+    <delegateAnalysisEngine key="EvaluationDescriptor">
+      <import name="descriptors.EvaluationDescriptor"/>
+    </delegateAnalysisEngine>
+    <delegateAnalysisEngine key="NgramDescriptor">
+      <import name="descriptors.NgramDescriptor"/>
+    </delegateAnalysisEngine>
+    <delegateAnalysisEngine key="TokenDescriptor">
+      <import name="descriptors.TokenDescriptor"/>
+    </delegateAnalysisEngine>
+  </delegateAnalysisEngineSpecifiers>
+  <analysisEngineMetaData>
+    <name>hw2-js1-aae</name>
+    <description/>
+    <version>1.0</version>
+    <vendor/>
+    <configurationParameters/>
+    <configurationParameterSettings/>
+    <flowConstraints>
+      <fixedFlow>
+        <node>QuestionDescriptor</node>
+        <node>AnswerDescriptor</node>
+        <node>TokenDescriptor</node>
+        <node>NgramDescriptor</node>
+        <node>AnswerScoreDescriptor</node>
+        <node>EvaluationDescriptor</node>
+      </fixedFlow>
+    </flowConstraints>
+    <fsIndexCollection/>
+    <capabilities>
+      <capability>
+        <inputs/>
+        <outputs>
+          <type allAnnotatorFeatures="true">edu.cmu.deiis.types.Question</type>
+          <type allAnnotatorFeatures="true">edu.cmu.deiis.types.Answer</type>
+          <type allAnnotatorFeatures="true">edu.cmu.deiis.types.AnswerScore</type>
+          <type allAnnotatorFeatures="true">edu.cmu.deiis.types.Token</type>
+        </outputs>
+        <languagesSupported/>
+      </capability>
+    </capabilities>
+    <operationalProperties>
+      <modifiesCas>true</modifiesCas>
+      <multipleDeploymentAllowed>true</multipleDeploymentAllowed>
+      <outputsNewCASes>false</outputsNewCASes>
+    </operationalProperties>
+  </analysisEngineMetaData>
+  <resourceManagerConfiguration/>
+</analysisEngineDescription>
