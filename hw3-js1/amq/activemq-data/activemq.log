@@ -1,0 +1,13 @@
+2013-10-07 17:39:21,039 [main           ] INFO  BrokerService                  - Using Persistence Adapter: MemoryPersistenceAdapter
+2013-10-07 17:39:21,069 [main           ] INFO  BrokerService                  - ActiveMQ 5.4.1 JMS Message Broker (localhost) is starting
+2013-10-07 17:39:21,069 [main           ] INFO  BrokerService                  - For help or more information please see: http://activemq.apache.org/
+2013-10-07 17:39:21,146 [JMX connector  ] INFO  ManagementContext              - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2013-10-07 17:39:21,385 [main           ] INFO  TransportServerThreadSupport   - Listening for connections at: tcp://sj-PC:61616
+2013-10-07 17:39:21,386 [main           ] INFO  TransportConnector             - Connector openwire Started
+2013-10-07 17:39:21,395 [main           ] INFO  BrokerService                  - ActiveMQ JMS Message Broker (localhost, ID:sj-PC-5481-1381181961124-0:0) started
+2013-10-07 17:55:09,499 [MQ ShutdownHook] INFO  BrokerService                  - ActiveMQ Message Broker (localhost, ID:sj-PC-5481-1381181961124-0:0) is shutting down
+2013-10-07 17:55:09,502 [Thread-2       ] INFO  BrokerService                  - ActiveMQ Message Broker (localhost, ID:sj-PC-5481-1381181961124-0:0) is shutting down
+2013-10-07 17:55:09,504 [Thread-2       ] INFO  TransportConnector             - Connector openwire Stopped
+2013-10-07 17:55:09,603 [Thread-2       ] INFO  BrokerService                  - ActiveMQ JMS Message Broker (localhost, ID:sj-PC-5481-1381181961124-0:0) stopped
+2013-10-07 17:55:10,066 [MQ ShutdownHook] INFO  TransportConnector             - Connector openwire Stopped
+2013-10-07 17:55:10,068 [MQ ShutdownHook] INFO  BrokerService                  - ActiveMQ JMS Message Broker (localhost, ID:sj-PC-5481-1381181961124-0:0) stopped

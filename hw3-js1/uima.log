@@ -1,0 +1,4 @@
+13-10-7 17:53:49 - 10: org.apache.uima.adapter.jms.client.BaseUIMAAsynchronousEngine_impl.<init>(128): 信息: UIMA Version 2.4.0 UIMA-AS Version 2.4.0
+13-10-7 17:53:50 - 10: org.apache.uima.adapter.jms.client.BaseUIMAAsynchronousEngine_impl.setupConnection: 信息: UIMA AS Client Created Shared Connection To Broker: tcp://sj-PC:61616
+13-10-7 17:53:50 - 10: org.apache.uima.adapter.jms.client.BaseUIMAAsynchronousEngine_impl.initializeProducer: 信息: Initializing JMS Message Producer. Broker: tcp://sj-PC:61616 Queue Name: HW3-deploy
+13-10-7 17:53:50 - 10: org.apache.uima.adapter.jms.client.BaseUIMAAsynchronousEngine_impl.initializeConsumer: 信息: Initializing JMS Message Consumer. Broker: tcp://sj-PC:61616 Queue Name: ID:sj-PC-5527-1381182829927-0:0:1
